@@ -1,13 +1,11 @@
 [package]
-name = "matchit"
-version = "0.7.3"
+name = "pavex_matchit"
+version = "0.7.4"
 license = "MIT AND BSD-3-Clause"
-authors = ["Ibraheem Ahmed <ibraheem@ibraheem.ca>"]
 edition = "2021"
-description = "A high performance, zero-copy URL router."
+description = "A fork of matchit, to get some unreleased fixes in Pavex."
 categories = ["network-programming", "algorithms"]
 keywords = ["router", "path", "tree", "match", "url"]
-repository = "https://github.com/ibraheemdev/matchit"
 readme = "README.md"
 
 [dependencies]
