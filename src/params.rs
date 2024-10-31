@@ -55,7 +55,8 @@ enum ParamsKind<'k, 'v> {
 }
 
 impl<'k, 'v> Params<'k, 'v> {
-    pub(crate) fn new() -> Self {
+    /// Create a new empty list of parameters.
+    pub fn new() -> Self {
         let kind = ParamsKind::None;
         Self { kind }
     }
